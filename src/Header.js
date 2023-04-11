@@ -8,7 +8,7 @@ import {Link} from "react-router-dom"
 function Header() {
   return (
     <div className='header'>
-    <Link to="/checkout" style={{textDecoration:"none"}}>
+    <Link to="/" style={{textDecoration:"none"}}>
 
       <div className="header_logo">
         <MdStorefront  className="header_logoImage" fontSize="large"/>
