@@ -1,11 +1,11 @@
  import React from 'react'    
 import "./Subtotal.css";
-import CurrencyFormat from "react-currency-format";
+// import CurrencyFormat from "react-currency-format";
 
 export const Subtotal = () => {
   return (
     <div className="subtotal">
-      <CurrencyFormat
+      {/* <CurrencyFormat */}
         renderText={(value) => (
           <>
             <p>
@@ -16,12 +16,12 @@ export const Subtotal = () => {
             </small>
           </>
    )}
-        decimalScale={2}
+        {/* decimalScale={2}
         value={0}
         displayType={"text"}
         thousandSeparator={true}
-        //  prefix={$}
-      />
+        //  prefix={$} */}
+      {/* /> */}
     </div>
   );
 };
